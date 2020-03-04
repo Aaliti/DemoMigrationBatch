@@ -47,7 +47,8 @@ public class JobBatchConfig {
         //reader.setMethodName("findAll");
         reader.setMethodName("findClients");
         //reader.setPageSize(CHUNK);
-        reader.setSort(singletonMap("id", Sort.Direction.DESC));
+        reader.setSort(singletonMap("id", Sort.Direction.ASC));
+        reader.setMaxItemCount(2);
         return reader;
     }
 
