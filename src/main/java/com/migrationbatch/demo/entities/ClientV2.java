@@ -5,6 +5,7 @@ import lombok.*;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
+
 @Entity
 @Data
 @AllArgsConstructor
@@ -15,7 +16,7 @@ public class ClientV2 {
     private Long id;
     private String nom;
 
-    public Long getId() {
+   /* public Long getId() {
         return id;
     }
 
@@ -29,5 +30,5 @@ public class ClientV2 {
 
     public void setNom(String nom) {
         this.nom = nom;
-    }
+    }*/
 }

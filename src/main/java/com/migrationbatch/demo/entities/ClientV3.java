@@ -21,7 +21,7 @@ public class ClientV3 {
     private String createdBy;
     private Date dateCreation = new Date();
 
-    public Long getId() {
+   /* public Long getId() {
         return id;
     }
 
@@ -59,5 +59,5 @@ public class ClientV3 {
 
     public void setDateCreation(Date dateCreation) {
         this.dateCreation = dateCreation;
-    }
+    }*/
 }
